@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đăng Ký</title>
+</head>
+<body bgcolor="#FFFFCC">
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(232, 14, 199);
+    margin: 30px;
+}
+form{
+    border: 4px solid rgb(12, 143, 219);
+    width: fit-content;
+    margin-left: 33%;
+    padding: 60px;
+}
+.formlabel{
+    width: 150px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+}
+.forminput{
+    background-color: rgb(242, 131, 216);
+    color: white;
+    height: 30px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 10px;
+}
+    
+button{
+    width:140px;
+    height:35px;
+    border: none;
+    border-radius: 10px;
+}
+#login{
+    background-color: rgb(128, 222, 230);
+    color:white;
+    margin-left:230px;
+    cursor: pointer;
+}
+#forget{
+    background-color: rgb(1, 14, 1);
+    color:white;
+    cursor: pointer;
+
+}
+</style>
+<body>
+    <h1>ĐĂNG KÝ NGAY</h1>
+    <form action="">
+        <p>
+            <label class="formlabel" for="fname">Họ và tên</label>
+            <input class="forminput" type="text" name="fname" >
+        </p>
+        <p>
+            <label class="formlabel" for="user">Tên đăng nhập</label>
+            <input class="forminput" type="text" name="user" >
+        </p>
+        <p>
+            <label class="formlabel" for="password">Mật khẩu</label>
+            <input class="forminput" type="text" name="password" >
+        </p>
+        <p>
+            <label class="formlabel" for="password">Xác minh</label>
+            <input class="forminput" type="text" name="password" >
+        </p>
+        <p>
+            <label class="formlabel" for="password">Gmail</label>
+            <input class="forminput" type="text" name="password" >
+        </p>
+        <p>
+            <label class="formlabel" for="sex">Giới tính</label>
+            <input type="radio" name="sex" >Nam
+            <input type="radio" name="sex" >Nữ
+        </p>
+        <p>
+            <button id="login"><a href="dangnhap.html">Đăng Ký</a></button>
+        </p>
+    </form>
+</body>
+</body>
+</html>
